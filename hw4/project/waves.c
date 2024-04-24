@@ -5,9 +5,9 @@
 #include "pico/binary_info.h"
 #include "hardware/spi.h"
 
-#define NUM_SAMPLES 180
-#define NUM_SINE_CYCLES 10
-#define NUM_TRIANGLE_CYCLES 5
+#define NUM_SAMPLES 200
+#define NUM_SINE_CYCLES 8
+#define NUM_TRIANGLE_CYCLES 4
 
 static inline void cs_select() {
     asm volatile("nop \n nop \n nop");

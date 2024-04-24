@@ -519,17 +519,17 @@ Disassembly of section .text:
 100004ae:	0292      	lsls	r2, r2, #10
 100004b0:	625a      	str	r2, [r3, #36]	@ 0x24
 100004b2:	615a      	str	r2, [r3, #20]
-100004b4:	220a      	movs	r2, #10
-100004b6:	21b4      	movs	r1, #180	@ 0xb4
-100004b8:	a8b4      	add	r0, sp, #720	@ 0x2d0
+100004b4:	2208      	movs	r2, #8
+100004b6:	21c8      	movs	r1, #200	@ 0xc8
+100004b8:	a8c8      	add	r0, sp, #800	@ 0x320
 100004ba:	f7ff ff51 	bl	10000360 <generate_sine_wave>
-100004be:	2205      	movs	r2, #5
-100004c0:	21b4      	movs	r1, #180	@ 0xb4
+100004be:	2204      	movs	r2, #4
+100004c0:	21c8      	movs	r1, #200	@ 0xc8
 100004c2:	4668      	mov	r0, sp
 100004c4:	f7ff ff8c 	bl	100003e0 <generate_triangle_wave>
 100004c8:	e00d      	b.n	100004e6 <main+0x66>
 100004ca:	00a5      	lsls	r5, r4, #2
-100004cc:	abb4      	add	r3, sp, #720	@ 0x2d0
+100004cc:	abc8      	add	r3, sp, #800	@ 0x320
 100004ce:	58e9      	ldr	r1, [r5, r3]
 100004d0:	2000      	movs	r0, #0
 100004d2:	f7ff ff19 	bl	10000308 <write_register1>
@@ -538,12 +538,12 @@ Disassembly of section .text:
 100004da:	2001      	movs	r0, #1
 100004dc:	f7ff ff14 	bl	10000308 <write_register1>
 100004e0:	3401      	adds	r4, #1
-100004e2:	2cb3      	cmp	r4, #179	@ 0xb3
+100004e2:	2cc7      	cmp	r4, #199	@ 0xc7
 100004e4:	ddf1      	ble.n	100004ca <main+0x4a>
 100004e6:	2400      	movs	r4, #0
 100004e8:	e7fb      	b.n	100004e2 <main+0x62>
 100004ea:	46c0      	nop			@ (mov r8, r8)
-100004ec:	fffffa5c 	.word	0xfffffa5c
+100004ec:	fffff9bc 	.word	0xfffff9bc
 100004f0:	0001869f 	.word	0x0001869f
 100004f4:	4003c000 	.word	0x4003c000
 
