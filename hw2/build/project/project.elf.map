@@ -1339,9 +1339,9 @@ Discarded input sections
  .debug_frame   0x00000000      0x114 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//ccwifpqC.o
- .data          0x00000000        0x0 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//ccwifpqC.o
- .bss           0x00000000        0x0 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//ccwifpqC.o
+ .text          0x00000000        0x0 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//cc8O1h8P.o
+ .data          0x00000000        0x0 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//cc8O1h8P.o
+ .bss           0x00000000        0x0 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//cc8O1h8P.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-calloc.o)
@@ -1660,7 +1660,7 @@ LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//ccwifpqC.o
+ .boot2         0x10000000      0x100 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//cc8O1h8P.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2591,7 +2591,7 @@ LOAD CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_commo
 LOAD CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//ccwifpqC.o
+LOAD /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//cc8O1h8P.o
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2680,7 +2680,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000053a       0x2c CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x00000566       0x22 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//ccwifpqC.o
+                0x00000566       0x22 /var/folders/j_/0zd3dmmd20z5vb87vvryt67h0000gn/T//cc8O1h8P.o
  .ARM.attributes
                 0x00000588       0x1e /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2949,38 +2949,38 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000bc6      0x117 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_line     0x00000000     0xd6b2
- .debug_line    0x00000000      0x39d CMakeFiles/project.dir/blinker.c.obj
- .debug_line    0x0000039d      0xc63 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001000      0x2c3 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x000012c3      0x4cf CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001792      0x4b9 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001c4b     0x10cb CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00002d16      0x270 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00002f86     0x1138 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000040be     0x1a42 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00005b00      0xc77 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00006777      0x860 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00006fd7      0xa93 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00007a6a      0x565 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00007fcf      0x496 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008465      0x2da CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000873f      0xb90 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000092cf     0x12ee CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000a5bd      0x11a CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000a6d7      0x29d CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000a974      0x2a9 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000ac1d      0x3fa CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000b017      0x3fc CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000b413      0x66c CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000ba7f       0x61 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000bae0      0x3b2 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000be92      0x3f1 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000c283      0x198 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000c41b       0x94 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000c4af       0xa5 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000c554      0x1fe CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000c752      0xf60 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_line     0x00000000     0xd6b0
+ .debug_line    0x00000000      0x39b CMakeFiles/project.dir/blinker.c.obj
+ .debug_line    0x0000039b      0xc63 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00000ffe      0x2c3 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x000012c1      0x4cf CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001790      0x4b9 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001c49     0x10cb CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00002d14      0x270 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00002f84     0x1138 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000040bc     0x1a42 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00005afe      0xc77 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00006775      0x860 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00006fd5      0xa93 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00007a68      0x565 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00007fcd      0x496 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008463      0x2da CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000873d      0xb90 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000092cd     0x12ee CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000a5bb      0x11a CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000a6d5      0x29d CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000a972      0x2a9 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000ac1b      0x3fa CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000b015      0x3fc CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000b411      0x66c CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000ba7d       0x61 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000bade      0x3b2 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000be90      0x3f1 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000c281      0x198 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000c419       0x94 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000c4ad       0xa5 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000c552      0x1fe CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000c750      0xf60 CMakeFiles/project.dir/Users/heinrich/Downloads/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_str      0x00000000     0x354e
  .debug_str     0x00000000     0x354e CMakeFiles/project.dir/blinker.c.obj

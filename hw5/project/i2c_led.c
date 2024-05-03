@@ -6,6 +6,8 @@
 // device has default bus address of 0x76
 #define ADDR _u(0b0100000)
 
+#define LED_PIN 25
+
 // hardware registers
 #define REG_IODIR _u(0x00)
 #define REG_GPIO _u(0x09)
@@ -45,6 +47,8 @@ int main() {
     gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
     gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
     gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
 
     chip_init();
 
@@ -54,5 +58,9 @@ int main() {
         } else {
             set(1);
         }
+        gpio_put(LED_PIN, 1);
+        sleep_ms(200);
+        gpio_put(LED_PIN, 0);
+        sleep_ms(200);
     }
 }

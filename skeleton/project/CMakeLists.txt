@@ -1,5 +1,5 @@
 add_executable(project
-  name.c
+  main.c
   )
 
 # pull in common dependencies
